@@ -13,7 +13,7 @@ function clickMinionHandler() {
   fetch(getMinionURL(inputText))
     .then((response) => {
       if (!response.ok) {
-        throw new Error("something went wrong");
+        throw new Error("something went wrong "+response.status);
       }
       return response.json();
     })
