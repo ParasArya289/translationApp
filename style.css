@@ -9,7 +9,7 @@ body {
   margin: 0px auto;
   max-width: 100%;
   width: 60%;
-  background-image: url("./images/bgimage.jpg");
+  background-image: url("./images/pexels-karolina-grabowska-4046757.jpg");
   background-size: cover;
 }
 
@@ -24,7 +24,7 @@ body {
 }
 
 #txt-input {
-  width: 80%;
+  width: 86%;
   height: 10vh;
   display: block;
   margin: 1em;
