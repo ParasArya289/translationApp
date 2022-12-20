@@ -9,7 +9,7 @@ body {
   margin: 0px auto;
   max-width: 100%;
   width: 60%;
-  background-image: url("./images/pexels-karolina-grabowska-4046757.jpg");
+  background-image: url("./images/pexels-mathias-reding-6243497.jpg");
   background-size: cover;
 }
 
@@ -30,10 +30,13 @@ body {
   margin: 1em;
   padding: 1rem;
   border-radius: 1rem;
-  color: #52525b;
+  color: var(--primary-color);
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(15px);
   border: 1px solid rgba(255, 255, 255, 0.1);
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color:var(--primary-color)
 }
 
 #btn-translate-yoda,#btn-translate-minion {
@@ -59,10 +62,10 @@ body {
   border-radius: 1rem;
   text-align: center;
   color: var(--primary-color);
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0);
   /* background:  linear-gradient(to right,rgba(119, 206, 240, 0.2),rgba(255, 255, 255, 0.2) ); */
 
-  backdrop-filter: blur(15px);
+  backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
