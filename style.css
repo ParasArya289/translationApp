@@ -33,6 +33,7 @@ body {
   color: var(--primary-color);
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -42,6 +43,7 @@ body {
 #btn-translate-yoda,#btn-translate-minion {
   background: rgba(255, 255, 255, 0);
   backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 1rem;
   padding: 0.6rem 1rem;
@@ -63,9 +65,8 @@ body {
   text-align: center;
   color: var(--primary-color);
   background: rgba(255, 255, 255, 0);
-  /* background:  linear-gradient(to right,rgba(119, 206, 240, 0.2),rgba(255, 255, 255, 0.2) ); */
-
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
